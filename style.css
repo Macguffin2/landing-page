@@ -1,0 +1,77 @@
+body {
+    background-image: url(Imagens/fundo_2.jpg);
+    background-size: cover;
+    color: red;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60;
+    margin-top: 100;
+}
+h1 {
+    font-size: 80px;
+}
+p {
+ color:white ;
+ font-size: 30;
+ font-family: 'Lucida Sans';
+ font-weight: bold;
+ opacity: 0.8;
+}
+span {
+    color: white;
+    font-size: 70;
+}
+ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 60;
+}
+li {
+    display: inline;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+    padding: 5;
+}
+ul li a:hover {
+    opacity: 0.7;
+}
+.button {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+}
+.button:hover {
+    opacity: 0.7;
+}
+@media (max-width: 768px) {
+ body {
+    background-image: url(Imagens/fundo_3.jpg);
+    background-size: cover;
+ }
+ h1 {
+   font-size: 75px; 
+ } 
+ span {
+    font-size: 65px;
+ }
+}
+@media (max-width: 640px) {
+    body {
+       background-image: url(Imagens/fundo_1.jpg);
+       background-size: cover;
+       text-align: center;
+    }
+    Ul {
+       text-align: center;
+    }
+   h1{
+       font-size: 70px;
+   }
+   span {
+      font-size: 60px;
+   }
+   }
